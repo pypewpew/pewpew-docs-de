@@ -1,0 +1,144 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Radomir Dopieralski
+# This file is distributed under the same license as the PewPew FeatherWing
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PewPew FeatherWing 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-03 13:55+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../pewpewlite/assembly.rst:2
+msgid "Assembly and Setup"
+msgstr ""
+
+#: ../../pewpewlite/assembly.rst:4
+msgid ""
+"The PewPew FeatherWing comes without the pin headers and LED matrix "
+"attached, so that some simple soldering is required before using it."
+msgstr ""
+
+#: ../../pewpewlite/assembly.rst:9
+msgid "Basic Assembly"
+msgstr ""
+
+#: ../../pewpewlite/assembly.rst:11
+msgid ""
+"The simplest way to assemble the PewPew board is to use an `Adafruit "
+"Feather <https://www.adafruit.com/category/946>`_ board that supports "
+"CircuitPython (the `Feather M0 Express "
+"<https://www.adafruit.com/product/3403>`_ works great for this) with "
+"female pin headers, and to solder the male pin headers onto the PewPew "
+"FeatherWing. Afterwards, insert the LED Matrix into place, solder its "
+"pins from the bottom, and trim them with wire cutters."
+msgstr ""
+
+#: ../../pewpewlite/assembly.rst:21
+msgid ""
+"Make sure to insert the LED Matrix in correct orientation -- with the "
+"markings in the same direction as the \"down\" button. Otherwise the "
+"colors will be wrong, and the image will be flipped."
+msgstr ""
+
+#: ../../pewpewlite/assembly.rst:25
+msgid ""
+"Note that you should solder the pin headers first, and then solder the "
+"LED matrix. Trying to do it in the opposite order may lead to damaging "
+"the matrix with your soldering iron."
+msgstr ""
+
+#: ../../pewpewlite/assembly.rst:29
+msgid "The Adafruit Feather board is not included in the kit."
+msgstr ""
+
+#: ../../pewpewlite/assembly.rst:33
+msgid "Making it Flatter"
+msgstr ""
+
+#: ../../pewpewlite/assembly.rst:35
+msgid ""
+"The basic assembly is fine, but it's good 2cm thick. You can make the "
+"whole thing much thinner by applying a number of tricks. First, use the "
+"`short female pin headers <https://www.adafruit.com/product/2940>`_ for "
+"the Adafruit Feather. Second, move the plastic on your male pin headers "
+"to the end of the header, insert the header from the top, and try it with"
+" the Feather to see how long the pins need to be. Then solder them, and "
+"trim the parts sticking out from the top with wire cutters. This way the "
+"PewPew FeatherWing can sit right on top of the battery plug of the "
+"Feather."
+msgstr ""
+
+#: ../../pewpewlite/assembly.rst:44
+msgid "Note that the short female headers are not included in the kit."
+msgstr ""
+
+#: ../../pewpewlite/assembly.rst:48
+msgid "Optional Battery"
+msgstr ""
+
+#: ../../pewpewlite/assembly.rst:50
+msgid ""
+"To make the PewPew even more portable, you can add a small LiPO battery "
+"(`the 100mAh batteries <https://www.adafruit.com/product/1570>`_ are "
+"about the right size). The FeatherWing even has a power switch built-in "
+"that you can use. Just solder the battery leads to the two holes marked "
+"\"+\" for the red wire, and \"-\" for the black wire. Be very careful to "
+"not short the battery wires while you are doing that. Then you can use "
+"two-sided tape to stick the battery on the underside of the FeatherWing, "
+"sandwiching it between the two boards. You may need to add some electric "
+"tape to prevent the metal body of the battery from shorting things on the"
+" boards."
+msgstr ""
+
+#: ../../pewpewlite/assembly.rst:60
+msgid "Note that the battery is not included in the kit."
+msgstr ""
+
+#: ../../pewpewlite/assembly.rst:64
+msgid "Software Setup"
+msgstr ""
+
+#: ../../pewpewlite/assembly.rst:66
+msgid ""
+"All the example programs are written using CircuitPython, so you will "
+"need to get that running on your Feather board. Fortunately Adafruit "
+"provides a lot of tutorials about how to do it. Some of the boards (like "
+"the M0 Express) even come with CircuitPython already loaded on them. "
+"Please see `this guide <https://learn.adafruit.com/welcome-to-"
+"circuitpython/installing-circuitpython>`_."
+msgstr ""
+
+#: ../../pewpewlite/assembly.rst:72
+msgid ""
+"Once you have CircuitPython running on the board, you need to copy the "
+"``pew.mpy`` file to it. That's the main library that contains all the "
+"functions needed to use the PewPew hardware."
+msgstr ""
+
+#: ../../pewpewlite/assembly.rst:76
+msgid ""
+"In addition, you need to copy your program onto the board. You have to "
+"name it ``main.py`` for it to be started automatically on power-up. Later"
+" on we will see how we can use a menu program that will let you choose "
+"what to run (you have to rename the ``menu.py`` to ``main.py`` to have it"
+" run at start)."
+msgstr ""
+
+#: ../../pewpewlite/assembly.rst:81
+msgid ""
+"You can get all the files from the `project's repository "
+"<https://github.com/deshipu/pewpew>`_, and the compiled files are "
+"available from the `releases page <https://github.com/pewpew-"
+"game/pewpew/releases>`_."
+msgstr ""
+

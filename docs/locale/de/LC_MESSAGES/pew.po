@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Radomir Dopieralski
+# This file is distributed under the same license as the PewPew FeatherWing
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PewPew FeatherWing 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-03 13:55+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../pew.rst:2
+msgid "PewPew Library Reference"
+msgstr ""
+
+#: ../../pew.rst:8
+msgid "Initialize the module."
+msgstr ""
+
+#: ../../pew.rst:10
+msgid "This function switches the display on and performs some basic setup."
+msgstr ""
+
+#: ../../pew.rst:15
+msgid ""
+"Set the brightness of the display, from 0 (minimum) to 15 (maximum). On "
+"devices that don't support varying the brightness this does nothing."
+msgstr ""
+
+#: ../../pew.rst:21
+msgid ""
+"Show the provided image on the display, starting at the top left corner. "
+"You will want to call this once for every frame."
+msgstr ""
+
+#: ../../pew.rst:27
+msgid ""
+"Return a number telling which keys (or buttons) have been pressed since "
+"the last check.  The number can then be filtered with the ``&`` operator "
+"and the ``K_X``, ``K_DOWN``, ``K_LEFT``, ``K_RIGHT``, ``K_UP``, and "
+"``K_O`` constants to see whether any of the keys was pressed."
+msgstr ""
+
+#: ../../pew.rst:35
+msgid ""
+"Wait until ``delay`` seconds have passed since the last call to this "
+"function. You can call it every frame to ensure a constant frame rate."
+msgstr ""
+
+#: ../../pew.rst:41
+msgid ""
+"Pix represents a drawing surface, ``width`` pixels wide and ``height`` "
+"pixels high."
+msgstr ""
+
+#: ../../pew.rst:44
+msgid ""
+"If no ``buffer`` is specified for storing the data, a suitable one will "
+"be automatically created."
+msgstr ""
+
+#: ../../pew.rst:49
+msgid ""
+"Creates a new Pix and initialzes its contents by iterating over ``lines``"
+" and then over individual pixels in each line. All the lines have to be "
+"at least as long as the first one."
+msgstr ""
+
+#: ../../pew.rst:55
+msgid ""
+"Creates a new Pix and renders the specified text on it. It is exactly the"
+" size needed to fit the specified text. Newlines and other control "
+"characters are rendered as spaces."
+msgstr ""
+
+#: ../../pew.rst:59
+msgid ""
+"If ``color`` is not specified, it will use yellow and red for the letters"
+" by default. Otherwise it will use the specified color, with "
+"``background`` color as the background."
+msgstr ""
+
+#: ../../pew.rst:63
+msgid ""
+"Alternatively, ``colors`` may be specified as a 4-tuple of colors, and "
+"then the ``color`` and ``background`` arguments are ignored, and the four"
+" specified colors are used for rendering the text."
+msgstr ""
+
+#: ../../pew.rst:69
+msgid ""
+"If ``color`` is specified, sets the pixel at location ``x``, ``y`` to "
+"that color. If not, returns the color of the pixel at that location."
+msgstr ""
+
+#: ../../pew.rst:72
+msgid "If the location is out of bounds of the drawing surface, returns 0."
+msgstr ""
+
+#: ../../pew.rst:76
+msgid ""
+"Draws a filled box with the specified ``color`` with its top left corner "
+"at the specified location and of the specified size. If no location and "
+"size are specified, fills the whole drawing surface."
+msgstr ""
+
+#: ../../pew.rst:82
+msgid ""
+"Copied the ``source`` drawing surface onto this surface at location "
+"specified with ``dx`` and ``dy``."
+msgstr ""
+
+#: ../../pew.rst:85
+msgid ""
+"If ``x``, ``y``, ``widht`` and ``height`` are specified, only copies that"
+" fragment of the ``source`` image, otherwise copies it whole."
+msgstr ""
+
+#: ../../pew.rst:88
+msgid ""
+"If ``key`` color is specified, that color is considered transparent on "
+"the source image, and is not copied onto this drawing surface."
+msgstr ""
+

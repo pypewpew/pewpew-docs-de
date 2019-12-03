@@ -1,0 +1,225 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Radomir Dopieralski
+# This file is distributed under the same license as the PewPew FeatherWing
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PewPew FeatherWing 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-03 13:55+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../tutorial-sokoban.rst:2
+msgid "Sokoban Tutorial"
+msgstr ""
+
+#: ../../tutorial-sokoban.rst:4
+msgid ""
+"When looking for simple games to implement on PewPew, it helps to look "
+"back to the times when computers were so young and underpowered, compared"
+" to today, that simple games were all they could run. One of those games "
+"is Sokoban. Let’s try to write a Sokoban for PewPew!"
+msgstr ""
+
+#: ../../tutorial-sokoban.rst:9
+msgid ""
+"`Sokoban <https://en.wikipedia.org/wiki/Sokoban>`_ is a puzzle game where"
+" you play a warehouse worker who has to push packing crates around until "
+"they are where they are supposed to be, which is indicated by marks on "
+"the floor. Unfortunately, your warehouse is a bit labyrinthine, and you "
+"can only push the crates, not pull them, so you need to plan carefully: "
+"if you push a crate into a corner, you can never get it back out."
+msgstr ""
+
+#: ../../tutorial-sokoban.rst:16
+msgid ""
+"As in the :doc:`tutorial`, create a file named *code.py* containing the "
+"basic setup and game loop. Instead of a blank screen, we put the game "
+"board on the screen right away: some walls, indicated by color 1 (dim or "
+"green), surrounding free space of color 0 (black). ::"
+msgstr ""
+
+#: ../../tutorial-sokoban.rst:41
+msgid ""
+"Let’s add a player character, indicated by a bright pixel, that can be "
+"moved around with the directional keys. We erase the pixel in the old "
+"position at the beginning of the loop by replacing it with 0 (black "
+"floor), then move the position if any keys are pressed, and finally paint"
+" it at the new position:"
+msgstr ""
+
+#: ../../tutorial-sokoban.rst:71
+msgid ""
+"Note that we use ``elif`` (Python’s shorthand for “else, if”) to check "
+"for different keys, which means that we can only move in one of the four "
+"directions at once. If we used ``if`` for every key, we could move e.g. "
+"right and down at the same time, that is, move diagonally. (We could also"
+" move up and down at the same time, which means not moving at all.) For "
+"Sokoban, we don’t want to be able to move diagonally, only horizontally "
+"and vertically, so we use ``elif``."
+msgstr ""
+
+#: ../../tutorial-sokoban.rst:78
+msgid ""
+"If you try this, you will notice that the player can move through walls "
+"and outside of the screen, leaving holes in the walls. Let’s fix that."
+msgstr ""
+
+#: ../../tutorial-sokoban.rst:81
+msgid ""
+"Instead of moving right away when a key is pressed, we first record in "
+"what direction we want to move in the variables ``dx`` and ``dy`` (the "
+"``d`` stands for “delta” or “difference”, because this is going to be the"
+" difference between the new and old position). Then we look ahead what is"
+" in that direction, the ``target`` pixel, and only move when it is "
+"“floor” (0)."
+msgstr ""
+
+#: ../../tutorial-sokoban.rst:112
+msgid ""
+"Now that that works as it should, let’s add the next element, a crate, "
+"represented by a bright pixel (3):"
+msgstr ""
+
+#: ../../tutorial-sokoban.rst:129
+msgid ""
+"When a crate is in front of a player wanting to move, it will be pushed "
+"away one pixel further in the same direction, and the player can move:"
+msgstr ""
+
+#: ../../tutorial-sokoban.rst:147
+msgid ""
+"There is no need to erase the crate at its old position, because it will "
+"immediately be overwritten with the player anyway."
+msgstr ""
+
+#: ../../tutorial-sokoban.rst:150
+msgid ""
+"Test it and you will notice that you can push the crate through walls, "
+"punching holes in the walls again. We obviously need to check what’s "
+"*behind* the crate first, before we decide to move it."
+msgstr ""
+
+#: ../../tutorial-sokoban.rst:169
+msgid ""
+"That works, but we now have two bright pixels on the screen, the player "
+"and the crate, and when the player isn’t moving, you can’t tell which is "
+"which. We still have an unused color available that we could use for one "
+"of them, 2 (medium brightness or red), but we’d like to use that for the "
+"marks on the floor later. Instead, let’s make the player blink. That "
+"needs another variable to keep track of what the last state was, which is"
+" then reversed after every time the player is drawn. A natural choice for"
+" such a variable with two states is a boolean with its two values "
+"``True`` and ``False``."
+msgstr ""
+
+#: ../../tutorial-sokoban.rst:199
+msgid ""
+"Time for the last missing element: the marks on the floor. We represent "
+"them by color 2:"
+msgstr ""
+
+#: ../../tutorial-sokoban.rst:216
+msgid "And the player and crates can move over them just like over bare floor:"
+msgstr ""
+
+#: ../../tutorial-sokoban.rst:232
+msgid ""
+"Try it out, and you will find the next problem: the mark is erased by "
+"either player or crate moving over it. This is because when overwriting "
+"the respective pixel with 2 or 3 to draw the player, we lose the "
+"information whether there was a mark there, and in the first line of the "
+"next loop, we will restore bare floor (0) even when there should have "
+"been a mark (2). We somehow need to preserve this information."
+msgstr ""
+
+#: ../../tutorial-sokoban.rst:239
+msgid ""
+"To solve this, there is a trick we can use. So far, we have always used "
+"pixel values 0–3 for black, dim, medium, bright or black, green, red, "
+"orange. These are all the colors that our hardware can display. But what "
+"happens if we use higher numbers? If you try it, you will find that 4 "
+"produces black, 5 produces dim/green again, 6 medium/red, 7 "
+"bright/orange, 8 black, and so on – the pattern just repeats every four "
+"steps. In other words, you can add 4 to a pixel value without changing "
+"its apparent color."
+msgstr ""
+
+#: ../../tutorial-sokoban.rst:247
+msgid ""
+"We can use this to our advantage: If we represent a crate-on-bare-floor "
+"as 3 and a crate-on-mark as 7, they will both look the same, but we can "
+"still distinguish them in the code. The same goes for the player: if the "
+"pixel blinks between 2 and 3, it’s on bare floor, if it blinks between 6 "
+"and 7, it’s on a mark."
+msgstr ""
+
+#: ../../tutorial-sokoban.rst:252
+msgid ""
+"For the player, this needs to be applied on the line where we erase the "
+"player and restore the floor (with or without mark), and on the line "
+"where we draw the new player over the previous floor or crate (each with "
+"or without mark):"
+msgstr ""
+
+#: ../../tutorial-sokoban.rst:274
+msgid ""
+"For the crate, it needs to be applied on the line where we detect a crate"
+" in front of the player and on the line where we draw the new crate over "
+"the previous floor:"
+msgstr ""
+
+#: ../../tutorial-sokoban.rst:291
+msgid ""
+"Test this and check that you can now both walk over the mark and push the"
+" crate over the mark without erasing it. Congratulations – with this, our"
+" game mechanics are now complete! The game still does not detect when all"
+" crates are placed on their marks and therefore the level is solved, "
+"though. Let’s add that."
+msgstr ""
+
+#: ../../tutorial-sokoban.rst:296
+msgid ""
+"The easiest way of checking that is to count all bare marks: if none of "
+"them are left, the puzzle is solved. So, iterate over all pixels (with an"
+" outer loop over all rows and an inner loop over the pixels of each row) "
+"and count up every time you see a bare mark. If the count remains 0, "
+"break out of the top-level ``while True`` loop, at which point the "
+"program ends because there’s no more code after the loop. It’s important "
+"to do this before we draw the player, who might stand on a mark and "
+"thereby hide it from the counting otherwise."
+msgstr ""
+
+#: ../../tutorial-sokoban.rst:324
+msgid ""
+"You can test this, but testing it with only one crate is not a very "
+"general test, so add another one, and a mark for it."
+msgstr ""
+
+#: ../../tutorial-sokoban.rst:341
+msgid ""
+"After you verify that the completion detection works properly – the game "
+"exits when both crates are on their marks, no earlier and no later – it’s"
+" now up to you to make the game more interesting by adding more walls to "
+"the level. Or maybe you want to extend the game to support multiple "
+"levels of increasing difficulty? Or add a nice reward animation for a "
+"completed level? Have fun!"
+msgstr ""
+
+#: ../../tutorial-sokoban.rst:347
+msgid "Here is the complete code in its final state again::"
+msgstr ""
+
+#: ../../tutorial-sokoban.rst:401
+msgid "You can also find this at https://github.com/pewpew-game/game-sokoban."
+msgstr ""
+

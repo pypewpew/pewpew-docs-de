@@ -1,0 +1,321 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Radomir Dopieralski
+# This file is distributed under the same license as the PewPew FeatherWing
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PewPew FeatherWing 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-03 13:55+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../pewpew10/hardware.rst:2
+msgid "Hardware"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:5
+msgid "PewPew Standalone v10.2"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:7
+msgid ""
+"PewPew Standalone is a handheld device, it doesn't require any additional"
+" hardware, except for two 1.5V AAA batteries."
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:11
+msgid "Specification"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:13
+msgid "Display"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:13
+msgid "8×8 red LED matrix"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:15
+msgid "Input"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:15
+msgid "6 buttons"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:17
+msgid "Sound"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:17
+msgid "no sound"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:19
+msgid "Interface"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:19
+msgid "12-pin connector at the back"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:21
+msgid "Controller"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:21
+msgid "Atmel SAMD21"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:23
+msgid "Battery"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:23
+msgid "2 x AAA 1.5V alkaline (not included)"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:26
+msgid ""
+"The device includes a display, six buttons, on-off switch, USB port and a"
+" battery holder. The batteries are required for operation, it can't be "
+"powered from the USB port. There is also a 12-pin connector on the back "
+"of the device that can be used for connecting other electronic devices."
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:34
+msgid "The 12-pin Connector"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:37
+msgid "Label"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:37
+msgid "Name"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:37
+msgid "Function"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:39
+msgid "``R``"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:39
+msgid "Reset"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:39
+msgid "Ground this pin to perform hard reset."
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:41
+msgid "``-``"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:41
+msgid "GND"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:41
+msgid "Negative power and ground. There are 2 pins."
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:43
+msgid "``1``"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:43
+msgid "board.P1"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:43
+msgid "DigitalIO, SWC, SPI-MISO/MOSI, PWM"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:45
+msgid "``2``"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:45
+msgid "board.P2"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:45
+msgid "DigitalIO, SWD, SPI-SCK, PWM"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:47
+msgid "``3``"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:47
+msgid "board.P3"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:47
+msgid "DigitalIO, I2C-SDA, SPI-MISO/MOSI, PWM"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:49
+msgid "``4``"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:49
+msgid "board.P4"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:49
+msgid "DigitalIO, I2C-SCL, SPI-SCK, PWM"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:51
+msgid "``5``"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:51
+msgid "board.P5"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:51
+msgid "DigitalIO, ADC, DAC, PWM, TouchIO"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:53
+msgid "``6``"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:53
+msgid "board.P6"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:53
+msgid "DigitalIO, ADC, TouchIO"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:55
+msgid "``7``"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:55
+msgid "board.P7"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:55
+msgid "DigitalIO, SPI-MISO/MOSI, UART, TouchIO"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:57
+msgid "``+``"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:57
+msgid "VCC"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:57
+msgid "Positive 3V power. There are 2 pins."
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:60
+msgid ""
+"You can insert a male header into the holes at the back of the device and"
+" plug it into a breadboard to easily gain access to the pins."
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:65
+msgid "Updating the Firmware"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:67
+msgid ""
+"Download a ``.uf2`` file from `https://circuitpython.org/board/pewpew10/ "
+"<https://circuitpython.org/board/pewpew10/>`_."
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:68
+msgid ""
+"Connect the PewPew to your computer using a USB cable. It appears as a "
+"disk named *CIRCUITPY*."
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:70
+msgid "Back up all your files, as the update might delete them."
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:71
+msgid "\"Eject\" or \"safely remove\" the ``CIRCUITPY`` disk."
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:72
+msgid ""
+"Connect the ``R`` and ``-`` pins on the :ref:`12-pin connector <12-pin-"
+"connector>` twice in short succession, like a double-click. Seen from the"
+" front, these are the two rightmost pins. If you added a male pin header,"
+" this is easily done by touching any metal part to the two pins. The "
+"PewPew display should go black and a disk named *TRINKETBOOT* should "
+"appear."
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:77
+msgid ""
+"If the *CIRCUITPY* disk reappears instead and the PewPew display shows "
+"the scrolling menu (or whatever else you installed as ``main.py``), try "
+"the double-click again, it can take a few tries to get the rhythm right."
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:80
+msgid ""
+"Copy the downloaded ``.uf2`` file to the *TRINKETBOOT* disk. When it’s "
+"done, which should take no longer than a few seconds, *TRINKETBOOT* "
+"disappears, *CIRCUITPY* reappears, and your PewPew is now running the new"
+" CircuitPython version."
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:84
+msgid ""
+"If needed, copy all your files back. Also, if you upgraded to a new major"
+" version, you will need to replace any ``.mpy`` files you have on your "
+"device, with ones compiled for the new version."
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:90
+msgid "Open Development"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:92
+msgid ""
+"This hardware is developed in the open, and all the designs and related "
+"materials are publicly available under a permissive license. You are free"
+" to inspect how it is build, build your own, improve and extend the "
+"design, and even sell your own versions."
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:97
+msgid ""
+"The designs are available in the `project's repository "
+"<https://github.com/pewpew-game>`_."
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:102
+msgid "Buy a Kit"
+msgstr ""
+
+#: ../../pewpew10/hardware.rst:104
+msgid ""
+"If you want to buy a kit that you only need to solder, you can find one "
+"at `Tindie <https://www.tindie.com/products/deshipu/small-pewpew-"
+"standalone/>`_."
+msgstr ""
+
