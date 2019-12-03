@@ -171,3 +171,5 @@ intersphinx_mapping = {
         'python': ('https://docs.python.org/3/', None),
         'cp': ('http://circuitpython.readthedocs.io/en/stable/', None),
 }
+locale_dirs = ['locale/']
+gettext_compact = False
