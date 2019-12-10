@@ -79,3 +79,21 @@ source_file = _build/gettext/pewpewlite/overview.pot
 source_lang = en
 type = PO
 
+[pew-pew.pewpew-m4--assembly]
+file_filter = locale/<lang>/LC_MESSAGES/pewpew-m4/assembly.po
+source_file = _build/gettext/pewpew-m4/assembly.pot
+source_lang = en
+type = PO
+
+[pew-pew.pewpew-m4--hardware]
+file_filter = locale/<lang>/LC_MESSAGES/pewpew-m4/hardware.po
+source_file = _build/gettext/pewpew-m4/hardware.pot
+source_lang = en
+type = PO
+
+[pew-pew.pewpew-m4--overview]
+file_filter = locale/<lang>/LC_MESSAGES/pewpew-m4/overview.po
+source_file = _build/gettext/pewpew-m4/overview.pot
+source_lang = en
+type = PO
+
