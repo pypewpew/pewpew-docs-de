@@ -1,0 +1,179 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Radomir Dopieralski
+# This file is distributed under the same license as the PewPew package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Raphael Das Gupta <github.com@raphael.dasgupta.ch>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PewPew 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-10 12:05+0100\n"
+"PO-Revision-Date: 2019-12-03 13:18+0000\n"
+"Last-Translator: Raphael Das Gupta <github.com@raphael.dasgupta.ch>, 2019\n"
+"Language-Team: German (https://www.transifex.com/pew-pew/teams/105124/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../pew.rst:2
+msgid "PewPew Library Reference"
+msgstr "Referenz zur PewPew-Bibliothek"
+
+#: ../../pew.rst:8
+msgid "Initialize the module."
+msgstr "Initialisiert das Modul."
+
+#: ../../pew.rst:10
+msgid "This function switches the display on and performs some basic setup."
+msgstr ""
+"Diese Funktion schaltet das Display ein und macht die Bibliothek "
+"betriebsbereit."
+
+#: ../../pew.rst:15
+msgid ""
+"Set the brightness of the display, from 0 (minimum) to 15 (maximum). On "
+"devices that don't support varying the brightness this does nothing."
+msgstr ""
+"Setzt die Display-Helligkeit, von 0 (minimal) bis 15 (maximal). Auf Geräten,"
+" welche die Helligkeit nicht ändern können, hat die Funktion keinen Effekt."
+
+#: ../../pew.rst:21
+msgid ""
+"Show the provided image on the display, starting at the top left corner. You"
+" will want to call this once for every frame."
+msgstr ""
+"Zeigt das übergebene Bild auf dem Display, in der oberen linken Ecke "
+"platziert. Du wirst das ein Mal pro Frame aufrufen wollen."
+
+#: ../../pew.rst:27
+msgid ""
+"Return a number telling which keys (or buttons) have been pressed since the "
+"last check.  The number can then be filtered with the ``&`` operator and the"
+" ``K_X``, ``K_DOWN``, ``K_LEFT``, ``K_RIGHT``, ``K_UP``, and ``K_O`` "
+"constants to see whether any of the keys was pressed."
+msgstr ""
+"Gibt eine Zahl zurück, die angibt, welche Tasten seit dem letzten Aufruf "
+"gedrückt wurden oder immer noch gedrückt sind. Diese Zahl kann dann mit dem "
+"Operator ``&`` und den Konstanten ``K_X``, ``K_DOWN``, ``K_LEFT``, "
+"``K_RIGHT``, ``K_UP`` und ``K_O`` gefiltert werden, um zu sehen, ob eine "
+"bestimmte Taste gedrückt war."
+
+#: ../../pew.rst:35
+msgid ""
+"Wait until ``delay`` seconds have passed since the last call to this "
+"function. You can call it every frame to ensure a constant frame rate."
+msgstr ""
+"Wartet, bis ``delay`` Sekunden vergangen sind seit dem letzten Aufruf. Du "
+"kannst das in jedem Frame aufrufen, um eine konstante Frame-Rate zu "
+"erreichen."
+
+#: ../../pew.rst:41
+msgid ""
+"Pix represents a drawing surface, ``width`` pixels wide and ``height`` "
+"pixels high."
+msgstr ""
+"Ein Pix ist eine Zeichenfläche (ein Bild), ``width`` Pixel breit und "
+"``height`` Pixel hoch."
+
+#: ../../pew.rst:44
+msgid ""
+"If no ``buffer`` is specified for storing the data, a suitable one will be "
+"automatically created."
+msgstr ""
+"Wenn kein ``buffer`` angegeben wird, um die Bilddaten zu speichern, wird "
+"automatisch ein passender angelegt."
+
+#: ../../pew.rst:49
+msgid ""
+"Creates a new Pix and initialzes its contents by iterating over ``lines`` "
+"and then over individual pixels in each line. All the lines have to be at "
+"least as long as the first one."
+msgstr ""
+"Macht ein neues Pix und initialisiert seinen Inhalt, indem über die Zeilen "
+"``lines`` und dann über einzelne Pixel innerhalb jeder Zeile iteriert wird. "
+"Alle Zeilen müssen mindestens so lang sein wie die erste."
+
+#: ../../pew.rst:55
+msgid ""
+"Creates a new Pix and renders the specified text on it. It is exactly the "
+"size needed to fit the specified text. Newlines and other control characters"
+" are rendered as spaces."
+msgstr ""
+"Macht ein neues Pix und schreibt den angegebenen Text hinein. Es erhält "
+"genau die Grösse, die für den Text nötig ist. Zeilenumbrüche und andere "
+"Spezialzeichen werden als Leerzeichen dargestellt."
+
+#: ../../pew.rst:59
+msgid ""
+"If ``color`` is not specified, it will use yellow and red for the letters by"
+" default. Otherwise it will use the specified color, with ``background`` "
+"color as the background."
+msgstr ""
+"Wenn keine Farbe ``color`` angegeben ist, werden die Buchstaben aus "
+"verschiedenfarbigen Pixeln bestehen. Ansonsten wird die angegebene Farbe "
+"verwendet, mit ``background`` als Hintergrundfarbe."
+
+#: ../../pew.rst:63
+msgid ""
+"Alternatively, ``colors`` may be specified as a 4-tuple of colors, and then "
+"the ``color`` and ``background`` arguments are ignored, and the four "
+"specified colors are used for rendering the text."
+msgstr ""
+"Alternativ kann als ``colors`` ein 4-Tupel von Farben angegeben werden, die "
+"Argumente ``color`` und ``background`` werden dann ignoriert und stattdessen"
+" diese vier Farben verwendet."
+
+#: ../../pew.rst:69
+msgid ""
+"If ``color`` is specified, sets the pixel at location ``x``, ``y`` to that "
+"color. If not, returns the color of the pixel at that location."
+msgstr ""
+"Falls ``color`` angegeben ist, wird das Pixel an der Position ``x``, ``y`` "
+"auf diese Farbe gesetzt. Ansonsten wird die aktuelle Farbe dieses Pixels "
+"zurückgegeben."
+
+#: ../../pew.rst:72
+msgid "If the location is out of bounds of the drawing surface, returns 0."
+msgstr ""
+"Falls die Position ausserhalb der Zeichenfläche liegt, wird 0 zurückgegeben."
+
+#: ../../pew.rst:76
+msgid ""
+"Draws a filled box with the specified ``color`` with its top left corner at "
+"the specified location and of the specified size. If no location and size "
+"are specified, fills the whole drawing surface."
+msgstr ""
+"Zeichnet ein gefülltes Rechteck in der Farbe ``color`` mit oberer linker "
+"Ecke bei ``x``, ``y``, Breite ``width`` und Höhe ``height``. Wenn keine "
+"Position und Grösse angegeben sind, wird die gesamte Zeichenfläche "
+"ausgefüllt."
+
+#: ../../pew.rst:82
+msgid ""
+"Copied the ``source`` drawing surface onto this surface at location "
+"specified with ``dx`` and ``dy``."
+msgstr ""
+"Kopiert die Zeichenfläche ``source`` auf diese Zeichenfläche an der Position"
+" ``dx``, ``dy``."
+
+#: ../../pew.rst:85
+msgid ""
+"If ``x``, ``y``, ``widht`` and ``height`` are specified, only copies that "
+"fragment of the ``source`` image, otherwise copies it whole."
+msgstr ""
+"Wenn ``x``, ``y``, ``width`` und ``height`` angegeben sind, wird nur dieser "
+"Ausschnitt des Quell-Bildes kopiert, ansonsten das gesamte Bild."
+
+#: ../../pew.rst:88
+msgid ""
+"If ``key`` color is specified, that color is considered transparent on the "
+"source image, and is not copied onto this drawing surface."
+msgstr ""
+"Wenn eine Farbe ``key`` angegeben ist, wird diese Farbe im Quell-Bild als "
+"transparent betrachtet und nicht auf diese Zeichenfläche kopiert."

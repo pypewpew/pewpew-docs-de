@@ -1,0 +1,188 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Radomir Dopieralski
+# This file is distributed under the same license as the PewPew package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Johannes Wildermuth <johannes.wildermuth@hsr.ch>, 2019
+# Carlo Del Rossi <carlo.del.rossi@hsr.ch>, 2019
+# Raphael Das Gupta <github.com@raphael.dasgupta.ch>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PewPew 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-10 12:05+0100\n"
+"PO-Revision-Date: 2019-12-03 13:18+0000\n"
+"Last-Translator: Raphael Das Gupta <github.com@raphael.dasgupta.ch>, 2019\n"
+"Language-Team: German (https://www.transifex.com/pew-pew/teams/105124/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../tutorial.rst:2
+msgid "Bouncing Ball Tutorial"
+msgstr "Gummiball Tutorial"
+
+#: ../../tutorial.rst:4
+msgid ""
+"Let's try to write a simple bouncing ball demo, where a single pixel moves "
+"around the screen and bounces off its edges. This will let us get familiar "
+"with the library."
+msgstr ""
+"Versuchen wir doch 'mal, eine einfache Gummiball-Demo zu schreiben, bei der "
+"sich ein einzelnes Pixel über den Bildschirm bewegt und an dessen Rand "
+"abprallt. Dies wird uns mit der Library vertraut machen."
+
+#: ../../tutorial.rst:8
+msgid ""
+"Start by creating a file called \"code.py\" --- that is where all our code "
+"will go. As long as such a file exists, PewPew will try to run it on startup"
+" and on reset. Later, when you finish working on your game, you can rename "
+"it to whatever you call your game, and then PewPew will fall back to running"
+" \"main.py\", which contains the game selection menu."
+msgstr ""
+"Beginne, indem du eine Datei mit dem Namen \"code.py\" erstellst --- darin "
+"schreiben wir all unseren Code. Solange eine solch genannte Datei existiert,"
+" wird PewPew beim Auf- oder Neustarten versuchen es auszuführen. Später, "
+"wenn du mit deinem Game fertig bist, kannst du ihm einen beliebigen neuen "
+"Namen geben, und dann wird PewPew wieder standardgemäss \"main.py\" "
+"ausführen, welches das Spielauswahlmenü beinhaltet."
+
+#: ../../tutorial.rst:14
+msgid ""
+"To use the PewPew library, we need to first import it into our code. So we "
+"need to start with this line::"
+msgstr ""
+"Um die PewPew Library zu benützen, müssen wir sie zuerst in unseren Code "
+"importieren. Dafür müssen wir mit der folgenden Zeile beginnen::"
+
+#: ../../tutorial.rst:18
+msgid ""
+"Then we need to tell the library to switch the display on and generally "
+"prepare everything for displaying our ball. We do that by calling the "
+"``init`` function like this::"
+msgstr ""
+"Dann müssen wir die Library anweisen, den Bildschirm anzuschalten und "
+"generell alles vorzubereiten, was wir brauchen, um den Gummiball anzuzeigen."
+" Das machen wir, indem wir die ``init`` Funktion wie folgt aufrufen::"
+
+#: ../../tutorial.rst:27
+msgid ""
+"We will want our demo program to run all the time in a loop, so we will need"
+" an infinite loop. We can limit the loop's speed to run 12 times a second, "
+"which is slow enough to see the movements, but not too slow::"
+msgstr ""
+"Wir möchten, dass unsere Demo die ganze Zeit in einer Schleife läuft, dafür "
+"brauchen wir eine Endlosschleife. Wir können die Wiederholungen pro Sekunde "
+"auf 12 begrenzen, was langsam genug ist, um die Bewegungen zu sehen, aber "
+"nicht allzu langsam::"
+
+#: ../../tutorial.rst:38
+msgid ""
+"Now, we will need an image that we will display on the screen. In PewPew, "
+"images are represented as ``Pix`` objects. So we can create an empty image "
+"the size of the display, and display it in our loop::"
+msgstr ""
+"Des Weiteren brauchen wir ein Bild, das wir auf dem Bildschirm anzeigen "
+"werden. In PewPew werden Bilder als ``Pix`` Objekte repräsentiert. Nun "
+"können wir ein leeres Bild in der Grösse des gesamten Bildschirms erstellen "
+"und innerhalb unserer Endlosschleife darstellen::"
+
+#: ../../tutorial.rst:51
+msgid ""
+"Now we will add our pixel. We will make it start at coordinates ``0, 0``, "
+"and we will draw it with color ``3``, which is the brightest::"
+msgstr ""
+"Jetzt fügen wir unser Pixel hinzu. Wir setzen dessen Ausgangsposition bei "
+"den Koordinaten ``0, 0`` und geben ihm die Farbe ``3``, welches die hellste "
+"ist::"
+
+#: ../../tutorial.rst:66
+msgid "Now let's make the pixel actually move::"
+msgstr "Und nun setzen wir unser Pixel in Bewegung::"
+
+#: ../../tutorial.rst:84
+msgid ""
+"After running this, you will see a diagonal line on the display. That's "
+"because the old positions of the pixel are not getting deleted. And the "
+"pixel keeps on going forever outside the screen. We can fix that. Let's "
+"start by deleting the old position::"
+msgstr ""
+"Wenn du das jetzt ausführst, wirst du sehen, wie sich auf dem Bildschirm "
+"eine Diagonale bildet. Das liegt daran, dass die vorherigen Positionen nicht"
+" gelöscht werden. Ausserdem bewegt sich das Pixel weiterhin in diese "
+"Richtung, ausserhalb des Bildschirms. Diese Probleme können wir beheben. "
+"Beginnen wir damit, die vorherigen Positionen zu löschen::"
+
+#: ../../tutorial.rst:106
+msgid ""
+"We simply draw a black pixel at the old position before drawing a bright one"
+" at the new one. Since we only update the screen once a frame, those two "
+"operations are visible at the same time. Now, let's make the pixel bounce "
+"off the edges::"
+msgstr ""
+"Wir färben einfach das Pixel an der vorherigen Position wieder schwarz, "
+"bevor wir das helle Pixel an der neuen Position zeichnen. Da wir den "
+"Bildschirm nur einmal pro Frame neu laden, sind beide Veränderungen zur "
+"gleichen Zeit sichtbar. Und nun, lass uns dem Pixel die Fähigkeit geben, von"
+" den Wänden abzuprallen::"
+
+#: ../../tutorial.rst:131
+msgid ""
+"We had to move our starting point a bit, because otherwise it will get stuck"
+" in the corner. Now you should see our pixel going from one corner to the "
+"other. That's neat, but a little bit boring. Maybe if we changed the "
+"starting position it would be better::"
+msgstr ""
+"Wir mussten die Ausgangsposition ein wenig verschieben, da das Pixel "
+"ansonsten in der Ecke feststecken würde. Jetzt solltest du sehen, wie unser "
+"Pixel von Ecke zu Ecke springt. Das ist immerhin schon etwas, aber nicht "
+"interessant genug. Vielleicht wäre es besser, wenn wir die Ausgangsposition "
+"verändern würden::"
+
+#: ../../tutorial.rst:157
+msgid ""
+"Maybe we could affect the ball's behavior with the buttons? For instance, "
+"pressing `O` could make it bounce horizontally, and pressing `X` "
+"vertically::"
+msgstr ""
+"Vielleicht können wir das Verhalten des Gummiballs mit den Tasten "
+"beeinflussen? Beispielsweise könnte man es mit der `O` Taste horizontal und "
+"mit der `X` Taste vertikal abspringen lassen::"
+
+#: ../../tutorial.rst:182
+msgid ""
+"Could we have a nicer background than just black? Let's try a check board::"
+msgstr ""
+"Können wir einen schöneren Hintergrund als nur schwarz haben? Versuchen "
+"wir's mit einem Schachbrett::"
+
+#: ../../tutorial.rst:216
+msgid ""
+"Instead of deleting our pixel with a black pixel, we simply copy the whole "
+"background all over the screen, and then draw our pixel in the new position."
+msgstr ""
+"Anstatt dass wir jedes Mal unser Pixel mit einem schwarzen Pixel ersetzen, "
+"kopieren wir einfach den gesamten Hintergrund und fügen ihn wieder ein, dann"
+" zeichnen wir unser Pixel an seiner neuen Position."
+
+#: ../../tutorial.rst:219
+msgid "How about making the ball larger::"
+msgstr "Wie wäre es, wenn wir den Gummiball grösser machen::"
+
+#: ../../tutorial.rst:257
+msgid ""
+"We had to adjust the boundaries of the screen for the larger ball here."
+msgstr ""
+"Wir mussten die Grenzen des Bildschirms anpassen, da der Gummiball grösser "
+"wurde."
+
+#: ../../tutorial.rst:259
+msgid "Now experiment with this code yourself and see what you can make."
+msgstr ""
+"Experimentiere jetzt mit diesem Code auf eigene Faust und sieh was du damit "
+"machen kannst."

@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Radomir Dopieralski
+# This file is distributed under the same license as the PewPew package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PewPew 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-10 12:05+0100\n"
+"PO-Revision-Date: 2019-12-03 13:18+0000\n"
+"Language-Team: German (https://www.transifex.com/pew-pew/teams/105124/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../pewmulator.rst:2
+msgid "Pewmulator"
+msgstr ""
+
+#: ../../pewmulator.rst:4
+msgid ""
+"Pewmulator is an emulator for the PewPew library that lets you play the "
+"games writen for the PewPew devices on your computer. It comes in the form "
+"of a Python 3 library that uses PyGame under the hood to implement all "
+"necessary parts of the PewPew library."
+msgstr ""
+
+#: ../../pewmulator.rst:9
+msgid ""
+"Note that the code is then being executed with Python 3 and not "
+"CircuitPython, so there may be some differences. The most obvious difference"
+" is the amount of RAM memory available --- so if you write a game in "
+"Pewmulator, chances are it won't run on PewPew because of lack of memory."
+msgstr ""
+
+#: ../../pewmulator.rst:14
+msgid ""
+"You can get the library from the `github repository <https://github.com"
+"/pewpew-game/pewmulator>`_. Just place the ``pew.py`` file alongside the "
+"code of your game, and run your game with Python 3."
+msgstr ""

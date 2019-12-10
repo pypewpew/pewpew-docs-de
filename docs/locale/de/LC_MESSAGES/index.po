@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Radomir Dopieralski
+# This file is distributed under the same license as the PewPew package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Raphael Das Gupta <github.com@raphael.dasgupta.ch>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PewPew 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-10 12:05+0100\n"
+"PO-Revision-Date: 2019-12-03 13:18+0000\n"
+"Last-Translator: Raphael Das Gupta <github.com@raphael.dasgupta.ch>, 2019\n"
+"Language-Team: German (https://www.transifex.com/pew-pew/teams/105124/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../index.rst:2
+msgid "Welcome to PewPew Documentation"
+msgstr "Willkommen zur PewPew-Dokumentation"
+
+#: ../../index.rst:4
+msgid ""
+"PewPew is a family of handheld devices that make learning to write simple "
+"games with Python easy, and also let you tinker with electronics."
+msgstr ""
+"PewPew ist eine Reihe von tragbaren Gerätchen, die das Programmieren simpler"
+" Computerspiele mit Python einfach machen und dich an Elektronik "
+"herumtüfteln lassen."
+
+#: ../../index.rst:7
+msgid ""
+"They all have a small 8×8 display and six buttons, and they all use the same"
+" \"pew\" library for accessing them. However, they differ in size, price and"
+" features available."
+msgstr ""
+"Alle davon haben sechs Knöpfe und eine kleine Anzeige mit 8×8 Pixeln und "
+"verwenden die selbe Bibliothek \"pew\" um auf diese zuzugreifen. Sie "
+"unterscheiden sich aber in Grösse, Preis und verfügbarer Funktionalität."

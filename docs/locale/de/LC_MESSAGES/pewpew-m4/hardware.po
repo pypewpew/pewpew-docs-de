@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Radomir Dopieralski
+# This file is distributed under the same license as the PewPew package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PewPew 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-10 12:05+0100\n"
+"PO-Revision-Date: 2019-12-10 11:17+0000\n"
+"Language-Team: German (https://www.transifex.com/pew-pew/teams/105124/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../pewpew-m4/hardware.rst:2
+msgid "Hardware"
+msgstr ""
+
+#: ../../pewpew-m4/hardware.rst:6
+msgid "Specifications"
+msgstr ""
+
+#: ../../pewpew-m4/hardware.rst:9
+msgid "Specification"
+msgstr ""
+
+#: ../../pewpew-m4/hardware.rst:11
+msgid "Display"
+msgstr ""
+
+#: ../../pewpew-m4/hardware.rst:11
+msgid "160x128 color TFT"
+msgstr ""
+
+#: ../../pewpew-m4/hardware.rst:13
+msgid "Input"
+msgstr ""
+
+#: ../../pewpew-m4/hardware.rst:13
+msgid "7 buttons"
+msgstr ""
+
+#: ../../pewpew-m4/hardware.rst:15
+msgid "Sound"
+msgstr ""
+
+#: ../../pewpew-m4/hardware.rst:15
+msgid "7mm buzzer"
+msgstr ""
+
+#: ../../pewpew-m4/hardware.rst:17
+msgid "Interface"
+msgstr ""
+
+#: ../../pewpew-m4/hardware.rst:17
+msgid "Micro USB"
+msgstr ""
+
+#: ../../pewpew-m4/hardware.rst:19
+msgid "Controller"
+msgstr ""
+
+#: ../../pewpew-m4/hardware.rst:19
+msgid "SAMD51 ARM Cortex M4"
+msgstr ""
+
+#: ../../pewpew-m4/hardware.rst:21
+msgid "Battery"
+msgstr ""
+
+#: ../../pewpew-m4/hardware.rst:21
+msgid "2xAAA 1.5V (not included, optional)"
+msgstr ""
+
+#: ../../pewpew-m4/hardware.rst:26
+msgid "Open Development"
+msgstr ""
+
+#: ../../pewpew-m4/hardware.rst:28
+msgid ""
+"This hardware is developed in the open, and all the designs and related "
+"materials are publicly available under a permissive license. You are free to"
+" inspect how it is build, build your own, improve and extend the design, and"
+" even sell your own versions."
+msgstr ""
+
+#: ../../pewpew-m4/hardware.rst:33
+msgid ""
+"The designs are available in the `project's repository <https://github.com"
+"/pewpew-game/pewpew-m4-v8>`_."
+msgstr ""
