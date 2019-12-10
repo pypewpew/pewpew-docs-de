@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../tutorial.rst:2
 msgid "Bouncing Ball Tutorial"
-msgstr "Gummiball Tutorial"
+msgstr "Gummiball-Tutorial"
 
 #: ../../tutorial.rst:4
 msgid ""
@@ -45,11 +45,11 @@ msgid ""
 "it to whatever you call your game, and then PewPew will fall back to running"
 " \"main.py\", which contains the game selection menu."
 msgstr ""
-"Beginne, indem du eine Datei mit dem Namen \"code.py\" erstellst --- darin "
-"schreiben wir all unseren Code. Solange eine solch genannte Datei existiert,"
-" wird PewPew beim Auf- oder Neustarten versuchen es auszuführen. Später, "
-"wenn du mit deinem Game fertig bist, kannst du ihm einen beliebigen neuen "
-"Namen geben, und dann wird PewPew wieder standardgemäss \"main.py\" "
+"Beginne, indem du eine Datei mit dem Namen \"code.py\" erstellst --- da "
+"schreiben wir all unseren Code rein. Solange eine Datei mit diesem Namen "
+"existiert, wird PewPew beim Auf- oder Neustarten versuchen sie auszuführen. "
+"Später, wenn du mit deinem Game fertig bist, kannst du ihm einen beliebigen "
+"neuen Namen geben, und dann wird PewPew wieder standardmäßig \"main.py\" "
 "ausführen, welches das Spielauswahlmenü beinhaltet."
 
 #: ../../tutorial.rst:14
@@ -57,8 +57,9 @@ msgid ""
 "To use the PewPew library, we need to first import it into our code. So we "
 "need to start with this line::"
 msgstr ""
-"Um die PewPew Library zu benützen, müssen wir sie zuerst in unseren Code "
-"importieren. Dafür müssen wir mit der folgenden Zeile beginnen::"
+"Um die PewPew Library zu benutzen zu können, müssen wir sie zuerst in "
+"unseren Code importieren. Dafür müssen wir mit der folgenden Zeile "
+"beginnen::"
 
 #: ../../tutorial.rst:18
 msgid ""
@@ -66,9 +67,9 @@ msgid ""
 "prepare everything for displaying our ball. We do that by calling the "
 "``init`` function like this::"
 msgstr ""
-"Dann müssen wir die Library anweisen, den Bildschirm anzuschalten und "
-"generell alles vorzubereiten, was wir brauchen, um den Gummiball anzuzeigen."
-" Das machen wir, indem wir die ``init`` Funktion wie folgt aufrufen::"
+"Dann müssen wir die Library anweisen, den Bildschirm anzuschalten und alles "
+"vorzubereiten, was wir brauchen, um den Gummiball anzuzeigen. Das machen "
+"wir, indem wir die ``init`` Funktion wie folgt aufrufen::"
 
 #: ../../tutorial.rst:27
 msgid ""
