@@ -16,11 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../devices.rst:2
-msgid "PewPew Devices"
+#: ../../pewpew-m4/overview.rst:2
+msgid "PewPew M4"
 msgstr ""
 
-#: ../../devices.rst:4
-msgid "There are several different PewPew devices out there, and a number of further devices can be made compatible with PewPew by using the right libraries. You can even build your own device!"
+#: ../../pewpew-m4/overview.rst:4
+msgid "PewPew M4 is a CircuitPython graphical handheld game console."
 msgstr ""
 
