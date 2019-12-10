@@ -1,0 +1,99 @@
+[main]
+host = https://www.transifex.com
+
+[pew-pew.community]
+file_filter = locale/<lang>/LC_MESSAGES/community.po
+source_file = _build/gettext/community.pot
+source_lang = en
+type = PO
+
+[pew-pew.devices]
+file_filter = locale/<lang>/LC_MESSAGES/devices.po
+source_file = _build/gettext/devices.pot
+source_lang = en
+type = PO
+
+[pew-pew.index]
+file_filter = locale/<lang>/LC_MESSAGES/index.po
+source_file = _build/gettext/index.pot
+source_lang = en
+type = PO
+
+[pew-pew.pew]
+file_filter = locale/<lang>/LC_MESSAGES/pew.po
+source_file = _build/gettext/pew.pot
+source_lang = en
+type = PO
+
+[pew-pew.pewmulator]
+file_filter = locale/<lang>/LC_MESSAGES/pewmulator.po
+source_file = _build/gettext/pewmulator.pot
+source_lang = en
+type = PO
+
+[pew-pew.tutorial]
+file_filter = locale/<lang>/LC_MESSAGES/tutorial.po
+source_file = _build/gettext/tutorial.pot
+source_lang = en
+type = PO
+
+[pew-pew.tutorial-sokoban]
+file_filter = locale/<lang>/LC_MESSAGES/tutorial-sokoban.po
+source_file = _build/gettext/tutorial-sokoban.pot
+source_lang = en
+type = PO
+
+[pew-pew.pewpew10--assembly]
+file_filter = locale/<lang>/LC_MESSAGES/pewpew10/assembly.po
+source_file = _build/gettext/pewpew10/assembly.pot
+source_lang = en
+type = PO
+
+[pew-pew.pewpew10--hardware]
+file_filter = locale/<lang>/LC_MESSAGES/pewpew10/hardware.po
+source_file = _build/gettext/pewpew10/hardware.pot
+source_lang = en
+type = PO
+
+[pew-pew.pewpew10--overview]
+file_filter = locale/<lang>/LC_MESSAGES/pewpew10/overview.po
+source_file = _build/gettext/pewpew10/overview.pot
+source_lang = en
+type = PO
+
+[pew-pew.pewpewlite--assembly]
+file_filter = locale/<lang>/LC_MESSAGES/pewpewlite/assembly.po
+source_file = _build/gettext/pewpewlite/assembly.pot
+source_lang = en
+type = PO
+
+[pew-pew.pewpewlite--hardware]
+file_filter = locale/<lang>/LC_MESSAGES/pewpewlite/hardware.po
+source_file = _build/gettext/pewpewlite/hardware.pot
+source_lang = en
+type = PO
+
+[pew-pew.pewpewlite--overview]
+file_filter = locale/<lang>/LC_MESSAGES/pewpewlite/overview.po
+source_file = _build/gettext/pewpewlite/overview.pot
+source_lang = en
+type = PO
+
+[pew-pew.pewpew-m4--assembly]
+file_filter = locale/<lang>/LC_MESSAGES/pewpew-m4/assembly.po
+source_file = _build/gettext/pewpew-m4/assembly.pot
+source_lang = en
+type = PO
+
+[pew-pew.pewpew-m4--hardware]
+file_filter = locale/<lang>/LC_MESSAGES/pewpew-m4/hardware.po
+source_file = _build/gettext/pewpew-m4/hardware.pot
+source_lang = en
+type = PO
+
+[pew-pew.pewpew-m4--overview]
+file_filter = locale/<lang>/LC_MESSAGES/pewpew-m4/overview.po
+source_file = _build/gettext/pewpew-m4/overview.pot
+source_lang = en
+type = PO
+
