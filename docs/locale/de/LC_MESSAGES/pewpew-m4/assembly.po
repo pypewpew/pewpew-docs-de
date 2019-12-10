@@ -1,0 +1,408 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Radomir Dopieralski
+# This file is distributed under the same license as the PewPew package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PewPew 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-10 12:05+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../pewpew-m4/assembly.rst:2
+msgid "Assembly and Setup"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:5
+msgid "Electronics"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:7
+msgid ""
+"If you bought a kit, you will receive this part already assembled and "
+"programmed."
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:10
+msgid "Schematic"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:12
+msgid "This is the schematic of the device."
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:20
+msgid "Printed Circuit Board"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:22
+msgid ""
+"A printed circuit board is necessary for assembling the electronic part "
+"of the console. You can find the gerber files in the project's "
+"repository."
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:31
+msgid ""
+"If you need to make modifications to the PCB designs, the Fritzing file "
+"is also available in the project's repository."
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:36
+msgid "Bill of Materials"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:38
+msgid "You will need the following components:"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:41
+msgid "Part/Designator"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:41
+msgid "Manufacture Part Number/Description"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:41 ../../pewpew-m4/assembly.rst:161
+msgid "Quantity"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:41 ../../pewpew-m4/assembly.rst:161
+msgid "Remarks/Links"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:43
+msgid "U1"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:43
+msgid "ATSAMD51G19A-MU"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:43 ../../pewpew-m4/assembly.rst:45
+#: ../../pewpew-m4/assembly.rst:47 ../../pewpew-m4/assembly.rst:51
+#: ../../pewpew-m4/assembly.rst:53 ../../pewpew-m4/assembly.rst:55
+#: ../../pewpew-m4/assembly.rst:57 ../../pewpew-m4/assembly.rst:59
+#: ../../pewpew-m4/assembly.rst:61 ../../pewpew-m4/assembly.rst:63
+#: ../../pewpew-m4/assembly.rst:91 ../../pewpew-m4/assembly.rst:165
+#: ../../pewpew-m4/assembly.rst:167
+msgid "1"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:43
+msgid "`Mouser <https://www.mouser.ch/ProductDetail/556-ATSAMD51G19AMU>`_"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:45
+msgid "U2"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:45
+msgid "ST7735R 1.8inch TFT"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:45
+msgid "https://www.aliexpress.com/item/32818686437.html"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:47
+msgid "U3"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:47
+msgid "AP2112K-3.3TRG1 ldo"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:49
+msgid "C1 C2"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:49
+msgid "10uF 0805 capacitor 3V"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:49 ../../pewpew-m4/assembly.rst:93
+msgid "2"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:51
+msgid "R1"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:51
+msgid "10Ohm 0805 resistor"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:53
+msgid "R2"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:53
+msgid "10kOhm 0805 resistor"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:55
+msgid "R3"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:55
+msgid "470Ohm 0805 resistor"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:57
+msgid "X1"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:57
+msgid "10118193-0001LF microusb socket"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:57
+msgid "https://www.aliexpress.com/item/32874709816.html"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:59
+msgid "X2"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:59
+msgid "MK12C02 switch"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:59
+msgid "https://www.aliexpress.com/item/32812362709.html"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:61
+msgid "X3"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:61
+msgid "HYG7525"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:61
+msgid "https://www.aliexpress.com/item/1707004675.html"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:63
+msgid "X4"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:63
+msgid "2xAAA battery holder"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:63
+msgid "https://www.aliexpress.com/item/32921198766.html"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:65
+msgid "BU BD BL BR BZ BX BO"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:65
+msgid "SKRPABE010 switch 1.57N"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:65
+msgid "7"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:65
+msgid "https://www.aliexpress.com/item/4000424101435.html"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:67
+msgid "two-sided tape"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:67
+msgid "1.5cm"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:67
+msgid ""
+"for attaching the battery holder "
+"https://www.aliexpress.com/item/33030272723.html"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:70
+msgid ""
+"The positions of the components are marked on the PCB's silkscreen, and "
+"there is also a pick-and-place file included with the gerbers."
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:73
+msgid ""
+"Please make sure to use the correct set of holes for the battery holder, "
+"depending on the polarity of the particular model you have. If you need "
+"to use the holes on the side of the display connector, it's best to "
+"solder the battery holder first, and the display later."
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:80
+msgid "Bootloader"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:82
+msgid ""
+"You will find the UF2 bootloader binary and sources in the project's "
+"repository.  In order to flash it to the chip on the PCB, you will need "
+"an SWD-capable programmer, such as JLink."
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:86
+msgid "Connect your programmer to the 12-pin connector at the bottom as follows:"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:89
+msgid "Programmer"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:89
+msgid "Device"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:91
+msgid "SWDCLK"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:93
+msgid "SWDIO"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:95
+msgid "RST"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:95
+msgid "R"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:97
+msgid "VCC"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:97
+msgid "``+``"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:99
+msgid "GND"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:99
+msgid "``-``"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:102
+msgid ""
+"While programming, the device needs to be powered either from battery, "
+"from USB, or with 3.3V through the ``+`` and ``-`` pins."
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:105
+msgid "If programming from the command line, use the following commands::"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:115
+msgid ""
+"After this, a ``PEWBOOT`` disk should become visible over USB. The UF2 "
+"files can be copied to that disk to flash them on the device.  To force "
+"the device into a bootloader mode again, the ``R`` pin needs to be "
+"shorted with the ``-`` twice."
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:122
+msgid "Firmware"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:124
+msgid ""
+"The CircuitPython firmware can be downloaded form the `official "
+"CircuitPython downloads page <http://circuitpython.org/downloads>`_. The "
+"UF2 file just needs to be copied over USB to the ``PEWBOOT`` disk."
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:130
+msgid "Case"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:132
+msgid ""
+"The case consists of two layers of acrylic parts, held together with six "
+"screws, and four button caps, attached to the switches with pieces of "
+"two-sided tape or glue. The whole assembly is shown below."
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:142
+msgid "Acrylic Layers"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:144
+msgid "The acrylic parts are laser-cut from 2mm clear and 3mm translucent sheets."
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:152
+msgid ""
+"It's possible to cut more than one set of parts from a single sheet, so "
+"you may want to modify the provided designs. Please also note that the "
+"design files include dimensions, which should be ignored by the cutter."
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:158
+msgid "Bill of materials"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:161
+msgid "Description"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:163
+msgid "M1.8 6mm flat-head self-tapping screw"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:163
+msgid "6"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:163
+msgid "https://www.aliexpress.com/item/32976344389.html"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:165
+msgid "2mm clear transparent acrylic parts"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:165
+msgid "see pewpew-m4-v8-2mm.svg"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:167
+msgid "3mm orange translucent acrylic parts"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:167
+msgid "see pewpew-m4-v8-3mm.svg"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:171
+msgid "Project Reposiotory"
+msgstr ""
+
+#: ../../pewpew-m4/assembly.rst:173
+msgid ""
+"All the design files can be found in the `project's repository "
+"<http://github.com/pewpew-game/pewpewp-m4-v8>`_."
+msgstr ""
+
